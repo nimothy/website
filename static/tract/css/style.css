@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: "Oswald";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.content {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.clear {
+    clear: both;
+}
+
+.quotes {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: left;
+    margin: 50px auto;
+}
+
+.quotes_center {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.author_name_white {
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.author_name_red {
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.author_name_gray {
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #94a4a4;
+    font-size: 20px;
+}
+
+.author_name_gray_center {
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #94a4a4;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.final_question_center{
+    font-family: "Wellfleet";
+    margin: 70px 0 0 75px;
+    color: #ff0000;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.quotes_container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#copyright {
+    color: #fff;
+    font-family: "Wellfleet";
+    font-size: 14px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#copyright a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.xop-container {
+    display: flex;
+}
+
+.xop-quotes_container_left {
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 2.5rem;
+}
+
+
+.xop-quotes_container_right {
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 5rem;
+}
+
+.xop-left {
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.xop-right {
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
